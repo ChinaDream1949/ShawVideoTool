@@ -7,6 +7,8 @@
 
 ## 用法
 // 第一种：自动压缩，分low ,medium , high 三档
+
+
 [_videoBox appendVideoByPath:_videoPath];
 _videoBox.ratio = WAVideoExportRatioLowQuality;//有损压缩
 [_videoBox asyncFinishEditByFilePath:filePath complete:^(NSError *error) {
@@ -14,6 +16,8 @@ _videoBox.ratio = WAVideoExportRatioLowQuality;//有损压缩
 }];
 
 // 第二种：通过自行设定分辩率，实现高清压缩
+
+
 [_videoBox appendVideoByPath:_videoPath];
 _videoBox.ratio = WAVideoExportRatio640x480;
     // _videoBox.vidoQuality = 6;还可以通过设置videoQuality进行精准压缩
@@ -28,6 +32,8 @@ _videoBox.ratio = WAVideoExportRatio640x480;
 }  complete:^(NSError * error) {
     // do it 
 }];
+
+
 
 [_videoBox appendVideoByPath:_videoPath];
 [_videoBox dubbedSoundBySoundPath:_testThreePath];
