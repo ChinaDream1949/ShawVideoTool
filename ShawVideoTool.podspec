@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ShawVideoTool'
-  s.version          = '1.0.0'
+  s.version          = '1.0.1'
   s.summary          = '这是一个强大的视频处理库'
 
 # This description is used to generate tags and improve search results.
