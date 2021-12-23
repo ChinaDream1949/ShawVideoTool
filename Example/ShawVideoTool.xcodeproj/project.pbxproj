@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2574793227746AFC00CA4760 /* SHAWPlayViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2574793127746AFC00CA4760 /* SHAWPlayViewController.m */; };
 		498C786818F11F4E88841778 /* Pods_ShawVideoTool_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D5582579DE41055E2CA9785 /* Pods_ShawVideoTool_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
@@ -37,6 +38,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2574793027746AFC00CA4760 /* SHAWPlayViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SHAWPlayViewController.h; sourceTree = "<group>"; };
+		2574793127746AFC00CA4760 /* SHAWPlayViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SHAWPlayViewController.m; sourceTree = "<group>"; };
 		359B731F062973CBBEA2A761 /* Pods-ShawVideoTool_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShawVideoTool_Example.release.xcconfig"; path = "Target Support Files/Pods-ShawVideoTool_Example/Pods-ShawVideoTool_Example.release.xcconfig"; sourceTree = "<group>"; };
 		3E7ECF1B88AB44DB30E54220 /* Pods-ShawVideoTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ShawVideoTool_Tests.release.xcconfig"; path = "Target Support Files/Pods-ShawVideoTool_Tests/Pods-ShawVideoTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		4D5582579DE41055E2CA9785 /* Pods_ShawVideoTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ShawVideoTool_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -148,6 +151,8 @@
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* SHAWViewController.h */,
 				6003F5A6195388D20070C39A /* SHAWViewController.m */,
+				2574793027746AFC00CA4760 /* SHAWPlayViewController.h */,
+				2574793127746AFC00CA4760 /* SHAWPlayViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -367,6 +372,7 @@
 				6003F59E195388D20070C39A /* SHAWAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* SHAWViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				2574793227746AFC00CA4760 /* SHAWPlayViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
