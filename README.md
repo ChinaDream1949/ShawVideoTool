@@ -10,7 +10,9 @@
 
 
 [_videoBox appendVideoByPath:_videoPath];
+
 _videoBox.ratio = WAVideoExportRatioLowQuality;//有损压缩
+
 [_videoBox asyncFinishEditByFilePath:filePath complete:^(NSError *error) {
     // do it
 }];
@@ -19,14 +21,19 @@ _videoBox.ratio = WAVideoExportRatioLowQuality;//有损压缩
 
 
 [_videoBox appendVideoByPath:_videoPath];
+
 _videoBox.ratio = WAVideoExportRatio640x480;
-    // _videoBox.vidoQuality = 6;还可以通过设置videoQuality进行精准压缩
+    
+// _videoBox.vidoQuality = 6;还可以通过设置videoQuality进行精准压缩
+
 [_videoBox asyncFinishEditByFilePath:filePath complete:^(NSError *error) {
     // do it
 }];
 
 [_videoBox appendVideoByPath:_testThreePath];
+
 [_videoBox appendVideoByPath:_testTwoPath];
+
 [_videoBox asyncFinishEditByFilePath:filePath progress:^(float progress) {
     // do it 长时间的操作可以添加进度监控
 }  complete:^(NSError * error) {
@@ -36,7 +43,9 @@ _videoBox.ratio = WAVideoExportRatio640x480;
 
 
 [_videoBox appendVideoByPath:_videoPath];
+
 [_videoBox dubbedSoundBySoundPath:_testThreePath];
+
 [_videoBox asyncFinishEditByFilePath:filePath complete:^(NSError *error) {
     // do it 
 }];
