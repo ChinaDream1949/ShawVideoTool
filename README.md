@@ -66,7 +66,7 @@ pod 'ShawVideoTool'
 
 ## Author
 
-14202183qq.com, 1420218361@qq.com
+1420218361@qq.com
 
 ## License
 
